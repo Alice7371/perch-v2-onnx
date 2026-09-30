@@ -1,0 +1,13 @@
+# weights & labels are downloaded separately — never commit them
+*.onnx
+*.tflite
+*.tar.gz
+labels.txt
+models.json
+SHA256SUMS
+*.npy
+*.wav
+
+venv/
+__pycache__/
+*.pyc

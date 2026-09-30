@@ -1,0 +1,6 @@
+# CUDA 12 machines (most common in 2026): 1.22.x — 1.30.x needs CUDA 13 and
+# silently falls back to CPU otherwise. See README.
+onnxruntime-gpu==1.22.0
+numpy
+
+# CPU-only: replace the first line with:  onnxruntime
