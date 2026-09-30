@@ -84,8 +84,3 @@ Or just pass it to the script: `--cuda-dll-dir .../torch/lib`.
 | CPU | 81 ms | 62× |
 
 GPU and CPU produce identical top-5 on a 440 Hz test tone (Telephone / Alarm / Glass … — a pure tone is, sensibly, a telephone).
-
-## 中文备注（国内下载）
-
-- HF 直连不通时走 `HF_ENDPOINT=https://hf-mirror.com`（下载 tphakala/Perch-v2 即可，`HF_HUB_DISABLE_XET=1` 避开 Xet 401）。
-- Kaggle 官方 TF 版：kagglehub 对**模型**资源匿名也 403（数据集可以匿名），网页端拿到的 `storage.googleapis.com` 预签名直链最省事——本机无法直连 GCS 的话，在一台能连的海外 VPS 上 curl 再 scp 回来。
